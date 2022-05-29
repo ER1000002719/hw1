@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    line-height: 12px;
+    font-family: 'Roboto';
+    color:rgb(0, 140, 149);
+}
+
+main {
+    background: url("signup_background.png");
+    background-repeat: repeat;
+    background-size: cover;
+    width: auto;
+    height: 120vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 400px;
+    width: 30%;
+
+    border-radius: 5%;
+}
+
+form{
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: column;
+}
+
+div h1{
+    font-family: 'Koulen';
+    color: rgb(0, 140, 149);
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-size: 3em;
+}
+
+div span{
+    margin: 0px;
+}
+
+.textinput{
+    color: dimgray;
+    padding: 5px;
+    border: 2px solid rgb(0, 140, 149);
+    border-radius: 5px;
+
+    margin-bottom: 4px;
+}
+
+.error {
+    color: crimson;
+    border: 2px solid crimson;
+    background-color: rgb(100, 0, 0, 0.4);
+}
+
+#submit{
+    padding: 10px;
+    background-color: skyblue;
+    border: 3px solid rgb(0, 140, 149);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+    color: whitesmoke;
+    font-family: 'Koulen', sans-serif;
+}
+
+form span{
+    margin: 0px;
+    padding: 0px;
+    color: crimson;
+    font-size: 0.80em;
+}
+
+#signup{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.posterror{
+    margin-top: 30px;
+    text-align: center;
+}

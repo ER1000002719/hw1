@@ -1,0 +1,163 @@
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 140, 149, .4);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 140, 149);
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar h1{
+    color: whitesmoke;
+    font-family: 'Koulen';
+    margin-left: 40px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    font-size: 1.25em;
+    height: 100%;
+}
+
+.navbar a:hover {
+    background: whitesmoke;
+    color: rgb(0, 140, 149);
+}
+
+main {
+    padding: 16px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#searchbox{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    align-items: center;
+}
+
+#searchbox h1{
+    font-family: 'Koulen', sans-serif;
+    font-size: 3em;
+}
+
+textarea{
+    height: 30px;
+    width: 600px;
+    padding: 3px 10px;
+    border-radius: 30px;
+    resize: none;
+    margin-top: 5px;
+
+    border: solid rgb(0, 140, 149) 2px;
+}
+#searchbox button{
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(0, 140, 149);
+    color: whitesmoke;
+
+    margin-top: 20px;
+}
+
+#searchresult div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 700px;
+    border-radius: 60px;
+    margin-top: 100px;
+}
+
+#searchresult img{
+    height: 400px;
+    width: 500px;
+}
+
+#searchresult h1{
+    font-family: 'koulen', sans-serif;
+    font-size: 2em;
+    color: rgb(0, 140, 149);
+}
+
+form{
+    font-size: 0.85em;
+    font-style: bold;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.textinput{
+    color: dimgray;
+    padding: 5px;
+    border: 2px solid rgb(0, 140, 149);
+    border-radius: 5px;
+
+    margin-bottom: 4px;
+}
+
+#submit{
+    padding: 10px;
+    background-color: skyblue;
+    border: 3px solid rgb(0, 140, 149);
+    border-radius: 10px;
+
+    color: whitesmoke;
+    font-family: 'Koulen', sans-serif;
+}
+
+#content {
+    color: dimgray;
+    width: 600px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid rgb(0, 140, 149);
+    border-radius: 5px;
+
+    margin-bottom: 4px;
+}
+
+.error {
+    color: crimson;
+    border: 2px solid crimson;
+    background-color: rgb(100, 0, 0, 0.4);
+}
+
+form span{
+    margin: 0px;
+    padding: 0px;
+    color: crimson;
+    font-size: 0.80em;
+}
+
+.hidden{
+    display: none;
+}
+
